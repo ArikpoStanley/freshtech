@@ -17,7 +17,7 @@ const FifthScreen = () => {
     <div className="p-6 w-full ">
     <div className='justify-between flex flex-row align'>
     <div>
-        <p className='flex text-[#4C689E] font-semibold'>Airtime to Cash</p>
+        <p className='flex text-[#4C689E] font-semibold'>Welcome Lawal Wahab</p>
     </div>
     <div className='flex gap-2 ml-1 font-semibold text-[#4C689E] items-center'>
         <p>Upgrade to merchant</p>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Home, DollarSign, Wifi, Tv, Zap, Clock, HelpCircle, ChevronRight, ChevronLeft } from 'lucide-react';
 import Logo from "../../assets/Logo.png"
 import Sidebar from './sidebar';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -44,9 +45,11 @@ const Login = () => {
               </div>
               <a href="#" className="text-sm text-red-600">Recover Password</a>
             </div>
+            <Link to={"/dashboard/first"}>
             <button type="submit" className="w-full bg-[#4169E1] text-white p-4 rounded-[10px] font-bold">
               Log in
             </button>
+            </Link>
           </form>
         </div>
       </div>

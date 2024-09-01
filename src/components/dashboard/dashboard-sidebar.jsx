@@ -11,7 +11,7 @@ const DashboardSidebar = () => {
     };
 
     const getButtonClass = (itemName) => {
-        let baseClass = 'flex items-center justify-between w-full my-4 p-4 rounded-2xl transition-colors duration-200';
+        let baseClass = 'flex items-center w-full my-4 p-4 rounded-2xl transition-colors duration-200';
         if (activeItem === itemName) {
             return `${baseClass} bg-[#4169E1] text-white`;
         } else {

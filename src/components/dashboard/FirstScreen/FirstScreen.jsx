@@ -8,7 +8,7 @@ const FirstScreen = () => {
   return (
     <>
     <DashboardSidebar />
-    <div className="flex-1 p-8">
+    <div className="flex-1 p-8 w-screen">
     <div className='justify-between flex flex-row align'>
     <div>
         <p className='flex text-[#4C689E] font-semibold'>Welcome Lawal Wahab</p>

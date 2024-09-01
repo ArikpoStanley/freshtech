@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="flex h-screen">
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/dashboard/first" element={<FirstScreen />} />
           <Route path="/dashboard/second" element={<SecondScreen />} />
           <Route path="/dashboard/third" element={<ThirdScreen />} />
