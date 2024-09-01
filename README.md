@@ -6,3 +6,14 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+Steps to run
+# clone the repository
+# navigate to projects directory and do npm install to install packages
+# run the command npm run dev to start the project 
+# click on the link on the terminal to open project 
+# finally you are brought to the login page click on login to go to the dashboard 
+# All the screens are linked to the side bar except for the buy data, tv subscription, pay electric bill
+
+
